@@ -53,6 +53,8 @@ camera.position.z = 3;
 // camera.position.x = 1;
 scene.add(camera);
 
+camera.lookAt(mesh.position);
+
 /**
  * Renderer
  */
